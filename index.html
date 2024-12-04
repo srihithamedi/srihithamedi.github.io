@@ -1,9 +1,177 @@
 <html>
+
 <head>
+    <style>
+        .one {
+            background-color: violet;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .links li {
+            display: inline-block;
+            padding: 10px;
+            justify-content: space-between;
+            font-size: larger;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* color: black; */
+        }
+
+        .two {
+            display: flex;
+            border: 2px;
+            /* margin: 10px; */
+            padding: 10px;
+            background-color: cornflowerblue;
+            /* width: 100px; */
+        }
+
+        .projects {
+            display: flex;
+            background-color: rgb(235, 172, 193);
+
+        }
+
+        .services {
+            display: flex;
+            background-color: blanchedalmond;
+
+        }
+
+        .about {
+            background-color: rgb(181, 211, 114);
+        }
+
+        .box {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .last {
+            background-color: black;
+            color: white;
+        }
+        .contacts{
+            display: flex;
+        }
+    </style>
 </head>
+
 <body>
-<h2>HI</h2>
-<p> This is Srihitha Medi</p>
-<a href="#">Project 1</a>
+    <div class="one" id="one">
+        <div class>
+            <h2> MEDI SRIHITHA</h2>
+        </div>
+        <div class="links">
+            <ul>
+                <li> <a href="#one">Home</a></li>
+                <li> <a href="#projects">Project</a></li>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="two">
+        <pre>
+        <h1>Full Stack Developer</h1>
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi similique excepturi dolorem adipisci ad
+        blanditiis aspernatur illum voluptate laborum molestias architecto animi, et exercitationem, assumenda autem
+        quod ea quam repellendus</h4>
+        <button>find more</button>
+        </pre>
+        <img src="fsd.jpg" width="500px" height="300px" />
+    </div>
+    <div class="projects" id="projects">
+        <h3>PROJECTS</h3><br>
+        <div class="box">
+            <h4>project 1</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+        <div class="box">
+            <h4>project 2</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+        <div class="box">
+            <h4>project 3</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h3>Services</h3><br>
+        <div class="box">
+            <h4>one</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+        <div class="box">
+            <h4>2</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+        <div class="box">
+            <h4>3</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
+                voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
+                doloribus, quisquam accusantium?</h5>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h3>About</h3><br>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita dolore in similique enim fuga
+            atque numquam debitis omnis voluptatem, ex voluptates. Tenetur, id accusamus! Nemo laudantium beatae
+            repudiandae dolorem!</h4>
+    </div>
+    <div class="contacts" id="contact">
+        <h3>Contact</h3>
+        <div class="box2">
+            
+           <br> <h4>contact form</h4>
+            <form name="f" action="#">
+                <input type="text" name="name" placeholder="Enter Name" value="" />
+                <input type="email" name="mail" placeholder="Enter Mail" value="" />
+                <input type="textarea" name="message" placeholder="Enter Message" value="" /><br>
+
+                <button>Send</button>
+            </form>
+        </div>
+        <div class="box3">
+            <p>
+                Alien<br>
+
+                <br>Address: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi
+                reiciendis. Esse a possimus eum est veritatis aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+                Perspiciatis, ab.<br>
+
+                <br>Email Address: alien@email.com<br>
+
+                <br>Phone Number: +91 132 437 4986
+            </p>
+        </div>
+    </div>
+    <div class="last">
+        <h4>@copyright2024. All rights reserved</h4>
+    </div>
 </body>
+
 </html>
