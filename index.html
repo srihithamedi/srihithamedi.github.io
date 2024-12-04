@@ -3,7 +3,7 @@
 <head>
     <style>
         .one {
-            background-color: violet;
+            background-color:rgb(211, 167, 244);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -31,7 +31,7 @@
             display: flex;
             border: 2px;
             /* margin: 10px; */
-            padding: 10px;
+            padding: 20px;
             background-color: cornflowerblue;
             /* width: 100px; */
         }
@@ -39,17 +39,21 @@
         .projects {
             display: flex;
             background-color: rgb(235, 172, 193);
+            padding: 20px;
 
         }
 
         .services {
             display: flex;
             background-color: blanchedalmond;
+            padding: 20px;
 
         }
 
         .about {
             background-color: rgb(181, 211, 114);
+            
+            padding: 20px;
         }
 
         .box {
@@ -63,6 +67,8 @@
         }
         .contacts{
             display: flex;
+            padding: 20px;
+            background-color: rgb(162, 234, 234);
         }
     </style>
 </head>
@@ -82,8 +88,6 @@
             </ul>
         </div>
     </div>
-
-
     <div class="two">
         <pre>
         <h1>Full Stack Developer</h1>
@@ -95,21 +99,23 @@
         <img src="fsd.jpg" width="500px" height="300px" />
     </div>
     <div class="projects" id="projects">
-        <h3>PROJECTS</h3><br>
+        <h3>PROJECTS</h3>
+        <br>
+
         <div class="box">
-            <h4>project 1</h4>
+            <a href="index2.html" target="_blank">Project 1</a>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
                 voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
                 doloribus, quisquam accusantium?</h5>
         </div>
         <div class="box">
-            <h4>project 2</h4>
+            <a href="#" target="_blank">Project 2</a>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
                 voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
                 doloribus, quisquam accusantium?</h5>
         </div>
         <div class="box">
-            <h4>project 3</h4>
+            <a href="#" target="_blank">Project 3</a>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
                 voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
                 doloribus, quisquam accusantium?</h5>
@@ -118,7 +124,7 @@
     <div class="services" id="services">
         <h3>Services</h3><br>
         <div class="box">
-            <h4>one</h4>
+            <h4>1</h4>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum saepe ipsum aspernatur similique
                 voluptatum, necessitatibus natus, ipsam, itaque quam officia. Porro id animi ipsam tenetur voluptatem
                 doloribus, quisquam accusantium?</h5>
@@ -137,10 +143,12 @@
         </div>
     </div>
     <div class="about" id="about">
-        <h3>About</h3><br>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita dolore in similique enim fuga
+        <pre></pre>
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita dolore in similique enim fuga
             atque numquam debitis omnis voluptatem, ex voluptates. Tenetur, id accusamus! Nemo laudantium beatae
-            repudiandae dolorem!</h4>
+            repudiandae dolorem!</p>
+        </pre>
     </div>
     <div class="contacts" id="contact">
         <h3>Contact</h3>
@@ -149,6 +157,7 @@
            <br> <h4>contact form</h4>
             <form name="f" action="#">
                 <input type="text" name="name" placeholder="Enter Name" value="" />
+
                 <input type="email" name="mail" placeholder="Enter Mail" value="" />
                 <input type="textarea" name="message" placeholder="Enter Message" value="" /><br>
 
