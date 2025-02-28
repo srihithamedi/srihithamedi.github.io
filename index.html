@@ -3,7 +3,7 @@
 <head>
     <style>
         .one {
-            background-color: rgb(211, 167, 244);
+            background-color: rgb(137, 150, 223);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -19,9 +19,11 @@
 
         a:link {
             text-decoration: none;
-            color: black;
+            color: rgb(0, 0, 0);
         }
-
+        a:visited{
+            text-decoration: rgb(0, 0, 0);
+        }
         a:hover {
             text-decoration: underline;
             /* color: black; */
@@ -30,28 +32,29 @@
         .two {
             display: flex;
             border: 2px;
+            justify-content: space-between;
             /* margin: 10px; */
             padding: 20px;
-            background-color: cornflowerblue;
+            background-color: rgb(159, 184, 220);
             /* width: 100px; */
         }
 
         .projects {
             display: flex;
-            background-color: rgb(235, 172, 193);
+            background-color: rgb(131, 133, 206);
             padding: 20px;
 
         }
 
         .services {
             display: flex;
-            background-color: blanchedalmond;
+            background-color: rgb(80, 90, 167);
             padding: 20px;
 
         }
 
         .about {
-            background-color: rgb(181, 211, 114);
+            background-color: rgb(154, 159, 214);
 
             padding: 20px;
         }
@@ -62,18 +65,27 @@
         }
 
         .last {
-            background-color: black;
+            background-color: rgb(98, 132, 183);
             color: white;
+            margin: 0%;
+
         }
 
         .contacts {
             display: flex;
-            padding: 20px;
-            background-color: rgb(162, 234, 234);
+            /* padding: 20px; */
+            justify-content: space-between;
+            background-color: rgb(78, 106, 150);
         }
-        .box3{
-            padding: 10px;
-            margin: 10px;
+        .box2{
+          
+           
+
+        }
+
+        .box3 {
+            /* padding: 10px; */
+            /* margin: 10px; */
         }
     </style>
 </head>
@@ -94,21 +106,25 @@
         </div>
     </div>
     <div class="two">
-        <pre><div>
+        
+        <div>
         <h1>Full Stack Developer</h1>
-        <p>I am a beginner in Full Stack Development, learning Java, C, HTML, CSS, and JavaScript. <br>I am currently working on an event management website, gaining hands-on experience in building web applications.</p>
-        <!-- <button>find more</button> -->
-        </pre>
+        <p>I am a beginner in Full Stack Development, learning Java, C, HTML, CSS, and JavaScript. <br>I am currently working on an event management website.</p>
+        </div>
+        
         <div class="box3">
-        <img src="fsd.jpg" width="500px" height="300px" /></div>
+            <img src="fsd.jpg" width="400px" height="300px" />
+        </div>
     </div>
     <div class="projects" id="projects">
         <h3>PROJECTS</h3>
-        <br>
-
+        
         <div class="box">
             <a href="index2.html" target="_blank">Project 1</a>
-            <h5>The Restaurant Website is a user-friendly platform designed to showcase the menu and enable online orders.Customers can explore food items with images and prices, place orders for delivery or pickup. Built using HTML, CSS, JavaScript, it aims to improve the restaurant’s digital presence and streamline customer interactions.</h5>
+            <h5>The Restaurant Website is a user-friendly platform designed to showcase the menu and enable online
+                orders.Customers can explore food items with images and prices, place orders for delivery or pickup.
+                Built using HTML, CSS, JavaScript, it aims to improve the restaurant’s digital presence and streamline
+                customer interactions.</h5>
         </div>
         <div class="box">
             <a href="https://srihithamedi.github.io/bank/" target="_blank">Project 2</a>
@@ -161,14 +177,10 @@
     <div class="contacts" id="contact">
         <h3>Contact</h3>
         <div class="box2">
-
-            <br>
-            <h4>contact form</h4>
+            <h4>Contact Form</h4>
             <form name="f" action="#">
-                <input type="text" name="name" placeholder="Enter Name" value="" />
-
-                <input type="email" name="mail" placeholder="Enter Mail" value="" />
-
+                <input type="text" name="name" placeholder="Enter Name" value="" /><br>
+                <input type="email" name="mail" placeholder="Enter Mail" value="" /><br>
                 <input type="textarea" name="message" placeholder="Enter Message" value="" /><br>
 
                 <button>Send</button>
@@ -190,5 +202,4 @@
         <h4>@copyright2024. All rights reserved</h4>
     </div>
 </body>
-
 </html>
