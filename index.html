@@ -21,9 +21,11 @@
             text-decoration: none;
             color: rgb(0, 0, 0);
         }
-        a:visited{
+
+        a:visited {
             text-decoration: rgb(0, 0, 0);
         }
+
         a:hover {
             text-decoration: underline;
             /* color: black; */
@@ -60,32 +62,27 @@
         }
 
         .box {
+
             padding: 10px;
             margin: 10px;
         }
 
         .last {
-            background-color: rgb(98, 132, 183);
+            background-color: rgb(183, 203, 234);
             color: white;
-            margin: 0%;
-
+            text-align: center;
+            padding: 10px;
+            margin-top: 0;
         }
 
         .contacts {
             display: flex;
-            /* padding: 20px; */
-            justify-content: space-between;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
             background-color: rgb(78, 106, 150);
-        }
-        .box2{
-          
-           
-
-        }
-
-        .box3 {
-            /* padding: 10px; */
-            /* margin: 10px; */
+            margin-bottom: 0;
+            padding-bottom: 10px;
         }
     </style>
 </head>
@@ -106,19 +103,20 @@
         </div>
     </div>
     <div class="two">
-        
+
         <div>
-        <h1>Full Stack Developer</h1>
-        <p>I am a beginner in Full Stack Development, learning Java, C, HTML, CSS, and JavaScript. <br>I am currently working on an event management website.</p>
+            <h1>Full Stack Developer</h1>
+            <p>I am a beginner in Full Stack Development, learning Java, C, HTML, CSS, and JavaScript. <br>I am
+                currently working on an event management website.</p>
         </div>
-        
+
         <div class="box3">
             <img src="fsd.jpg" width="400px" height="300px" />
         </div>
     </div>
     <div class="projects" id="projects">
         <h3>PROJECTS</h3>
-        
+
         <div class="box">
             <a href="index2.html" target="_blank">Project 1</a>
             <h5>The Restaurant Website is a user-friendly platform designed to showcase the menu and enable online
@@ -176,24 +174,20 @@
     </div>
     <div class="contacts" id="contact">
         <h3>Contact</h3>
-        <div class="box2">
+        <div class="box">
             <h4>Contact Form</h4>
             <form name="f" action="#">
                 <input type="text" name="name" placeholder="Enter Name" value="" /><br>
                 <input type="email" name="mail" placeholder="Enter Mail" value="" /><br>
                 <input type="textarea" name="message" placeholder="Enter Message" value="" /><br>
-
                 <button>Send</button>
             </form>
         </div>
-        <div class="box3">
+        <div class="box">
             <p>
                 Smiles<br>
-
                 <br>Address: GRIET COLLEGE, HYDERABAD.<br>
-
                 <br>Email Address: hello@email.com<br>
-
                 <br>Phone Number: +91 132 437 4986
             </p>
         </div>
@@ -202,4 +196,5 @@
         <h4>@copyright2024. All rights reserved</h4>
     </div>
 </body>
+
 </html>
